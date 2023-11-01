@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script type="text/javascript" src="./javascript.js"></script>
+</head>
+
+<body onload=display_ct();>
+    <p id='ct'></p>
+    <center>
+        <h1 style="color: purple;"><i><b>User Sign-UP</b></i></h1>
+        <hr>
+        <table>
+            <form name="f1" action="./success.html" onsubmit="return validate()">
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" class="inp" name="t1" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" class="inp" name="t2" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" class="inp" name="t3" required></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password" class="inp" name="t4" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" class="inp" name="r1" value="male" required>male
+                        <input type="radio" class="inp" name="r1" value="female" required>female
+                        <input type="radio" class="inp" name="r1" value="other" required>other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="text" class="inp" name="t5" required></td>
+                </tr>
+                <tr>
+                    <td>D.O.B.</td>
+                    <td><input type="date" class="inp" name="t6" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" class="inp" name="t7" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><br><br><input type="submit" id="submit"></td>
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+
+</html>

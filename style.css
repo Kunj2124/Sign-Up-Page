@@ -1,0 +1,27 @@
+body 
+{
+    background-color: turquoise;
+    color: yellow;
+}
+
+table 
+{
+    background-color: grey;
+}
+
+.inp:focus
+{
+    background-color: coral;
+    color: white;
+}
+
+#submit:hover 
+{
+    background-color: navy;
+    color: white;
+}
+#ct
+{
+    text-align: right;
+    color: navy;
+}
